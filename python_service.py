@@ -15,7 +15,7 @@ from youtube_service import youtube_service, YouTubeVideoInfo
 # 使用你现有的API配置
 qianfan_headers = {
     "Content-Type": "application/json",
-    "Authorization": "Bearer bce-v3/ALTAK-Lz8A6o7S7rDGh4q6QEYWr/86041c57d0cb7fc5f1d496d4e31c4dc8a03de20f",
+    "Authorization": "xxxxxxxxxxx",
 }
 
 qianfan_chat_url = "https://qianfan.baidubce.com/v2/chat/completions"
