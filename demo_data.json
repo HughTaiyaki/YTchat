@@ -1,0 +1,78 @@
+{
+  "videos": [
+    {
+      "youtube_id": "Ylvr5hl6hYo",
+      "title": "示例视频1 - 技术教程",
+      "description": "这是一个关于编程技术的教程视频，包含了详细的操作步骤和代码示例。",
+      "thumbnail": "https://img.youtube.com/vi/Ylvr5hl6hYo/maxresdefault.jpg",
+      "duration": 1800
+    },
+    {
+      "youtube_id": "dQw4w9WgXcQ",
+      "title": "示例视频2 - 音乐视频",
+      "description": "这是一个音乐视频，包含了优美的旋律和精彩的视觉效果。",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+      "duration": 212
+    }
+  ],
+  "segments": [
+    {
+      "video_id": 1,
+      "start_time": 0,
+      "end_time": 300,
+      "content": "视频开头部分，介绍主题和背景",
+      "summary": "这部分主要介绍了视频的主题和背景信息，为后续内容做铺垫。"
+    },
+    {
+      "video_id": 1,
+      "start_time": 300,
+      "end_time": 600,
+      "content": "核心内容讲解，详细步骤演示",
+      "summary": "这是视频的核心部分，包含了详细的操作步骤和代码示例。"
+    },
+    {
+      "video_id": 1,
+      "start_time": 600,
+      "end_time": 900,
+      "content": "实践操作，动手练习",
+      "summary": "这部分提供了实践操作的机会，让观众能够动手练习所学内容。"
+    },
+    {
+      "video_id": 1,
+      "start_time": 900,
+      "end_time": 1200,
+      "content": "常见问题解答，注意事项",
+      "summary": "解答了学习过程中可能遇到的常见问题，并提醒了重要的注意事项。"
+    },
+    {
+      "video_id": 1,
+      "start_time": 1200,
+      "end_time": 1500,
+      "content": "总结回顾，知识点梳理",
+      "summary": "对整节课的内容进行了总结回顾，帮助观众梳理知识点。"
+    },
+    {
+      "video_id": 1,
+      "start_time": 1500,
+      "end_time": 1800,
+      "content": "作业布置，下期预告",
+      "summary": "布置了课后作业，并预告了下期视频的内容。"
+    }
+  ],
+  "chat_history": [
+    {
+      "question": "这个视频主要讲了什么？",
+      "answer": "这个视频主要介绍了编程技术的基础知识，包括理论讲解和实践操作。视频分为6个主要部分：开头介绍、核心内容、实践操作、问题解答、总结回顾和作业布置。",
+      "video_id": 1,
+      "start_time": 0,
+      "end_time": 300
+    },
+    {
+      "question": "视频中有哪些实践操作？",
+      "answer": "视频在第三部分（10-15分钟）包含了详细的实践操作环节，观众可以跟着视频进行动手练习，巩固所学知识。",
+      "video_id": 1,
+      "start_time": 600,
+      "end_time": 900
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "app": {
+    "name": "YTchat",
+    "mode": "debug",
+    "port": 8080,
+    "version": "1.0.0",
+    "start_time": "",
+    "machine_id": 1
+  },
+  "log": {
+    "level": "info",
+    "filename": "logs/ytchat.log",
+    "max_size": 200,
+    "max_age": 30,
+    "max_backups": 7
+  },
+  "mysql": {
+    "host": "localhost",
+    "port": 3306,
+    "user": "root",
+    "password": "",
+    "dbname": "ytchat",
+    "max_open_conns": 50,
+    "max_idle_conns": 25
+  },
+  "sqlite": {
+    "path": "data/ytchat.db"
+  },
+  "python_service": {
+    "url": "http://localhost:8000",
+    "timeout": 50
+  },
+  "qianfan": {
+    "api_key": "",
+    "chat_url": "https://example.com/qianfan/chat"
+  },
+  "youtube": {
+    "api_key": ""
+  }
+}

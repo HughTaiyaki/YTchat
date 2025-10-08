@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Go
+bin/
+*.exe
+*.out
+
+# Logs & temp
+logs/
+*.log
+tmp/
+
+# Data
+data/
+
+# Env & local config (real secrets ignored)
+.env
+config.env
+conf/config.json
+docker-compose.override.yml
+
+# Keep example configs tracked
+!.env.example
+!conf/config.example.json
