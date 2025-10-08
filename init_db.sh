@@ -14,7 +14,7 @@ fi
 DB_HOST="localhost"
 DB_PORT="3306"
 DB_USER="root"
-DB_PASS="darknessyifu78g"
+DB_PASS="xxxxxxx"
 DB_NAME="ytchat"
 
 echo "📊 数据库配置:"
